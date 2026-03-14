@@ -1,0 +1,17 @@
+{
+  "name": "koalacast",
+  "version": "1.0.0",
+  "description": "Browser-based audio streaming with QR code receiver",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "localtunnel": "^2.0.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
